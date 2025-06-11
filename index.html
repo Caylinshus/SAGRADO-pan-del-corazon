@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sagrado Pan del Corazón</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="icon" type="image/jpg" href="img/logo.jpg"/>
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <img src="img/logo.jpg" alt="logo" class="logo"/>
+    </div>
+    <div class="header-center">
+      <h1>Sagrado Pan del Corazón</h1>
+    </div>
+    <div class="header-right">
+      <button id="cart-btn" aria-label="Carrito" class="icon-btn">
+        <img src="img/carrito.png" alt="Carrito" />
+        <span id="cart-count">0</span>
+      </button>
+      <button id="search-btn" aria-label="Buscar" class="icon-btn">
+        <img src="img/lupa.png" alt="Buscar" />
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="products-section" class="products-section"></section>
+    <section id="product-modal" class="modal hidden"></section>
+    <section id="cart-modal" class="modal hidden"></section>
+  </main>
+
+  <footer>
+    <div>
+      <span>
+        <strong>Email:</strong> <a href="mailto:sagradopandelcorazon@gmail.com">sagradopandelcorazon@gmail.com</a>
+      </span>
+	  <a href="https://www.facebook.com/SAGRADOpandelcorazon" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i> Facebook</a> | <a href="https://www.instagram.com/SAGRADOpandelcorazon" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Instagram</a>
+      <span class="eslogan">El arte sagrado de endulzar la vida.</span>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
