@@ -1,4 +1,3 @@
-
 const PRODUCTS = [
   {
     id: 1,
